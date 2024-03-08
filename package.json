@@ -1,0 +1,29 @@
+{
+  "name": "node-mongodb",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno0751/node-mongodb.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Bruno Gressler da Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruno0751/node-mongodb/issues"
+  },
+  "dependencies": {
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.2"
+  }
+}
